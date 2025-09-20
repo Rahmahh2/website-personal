@@ -1,7 +1,7 @@
 // -----------------------------
 // 1. Typing Effect di Header
 // -----------------------------
-const text = "Halo, saya RAHMAH 👋";
+const text = "Halo, saya Rahmah 👋";
 let i = 0;
 const speed = 100; // kecepatan ketik (ms)
 const typingTarget = document.getElementById("typing");
@@ -69,5 +69,6 @@ if(form){
         });
     });
 }
+
 
 
