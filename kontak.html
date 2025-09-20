@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Hubungi Saya</h1>
+        <p>Mari kita terhubung! ✉️</p>
+    </header>
+
+    <!-- Navigasi -->
+    <nav>
+        <ul>
+            <li><a href="beranda.html">Beranda</a></li>
+            <li><a href="tentang.html">Tentang Saya</a></li>
+            <li><a href="proyek.html">Proyek</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- Konten Utama -->
+    <main>
+        <section class="fade-in">
+            <h2>Form Kontak</h2>
+            <form id="contact-form" action="submit_contact.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Nama</label>
+                    <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Pesan</label>
+                    <textarea id="message" name="message" placeholder="Tulis pesan Anda" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn-animated">Kirim Pesan</button>
+            </form>
+            <p id="success-message" style="display:none; color: green; margin-top: 10px;"></p>
+        </section>
+        
+
+        <section class="fade-in">
+            <h2>Informasi Lain</h2>
+            <p>Atau hubungi saya melalui:</p>
+            <ul>
+                <li>Email: <a href="mailto:email@kamu.com">email@kamu.com</a></li>
+                <li>Telepon/WA: <a href="tel:+6281234567890">+62 812-3456-7890</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/kamu" target="_blank">linkedin.com/in/kamu</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 [Nama Kamu] | Semua Hak Dilindungi</p>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>

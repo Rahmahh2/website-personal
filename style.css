@@ -1,0 +1,89 @@
+/* Reset bawaan browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style umum */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #2e2e2e;
+}
+
+/* Header */
+header {
+    background: #800000; /* warna maroon */
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+/* Navigasi */
+nav {
+    background: #4b0000; /* maroon lebih gelap */
+    padding: 12px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffd6d6; /* merah muda lembut untuk efek hover */
+}
+
+/* Bagian Utama */
+main {
+    padding: 25px;
+    max-width: 850px;
+    margin: auto;
+    background: white;
+    box-shadow: 0 0 15px rgba(128,0,0,0.2); /* efek bayangan maroon */
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+main h2 {
+    margin-bottom: 15px;
+    color: #800000;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #4b0000;
+    color: white;
+    margin-top: 30px;
+}
+
+#success-message {
+    font-weight: bold;
+    animation: fadein 1s ease forwards;
+}
+
+@keyframes fadein {
+    from { opacity: 0; transform: translateY(-10px);}
+    to { opacity: 1; transform: translateY(0);}
+}
